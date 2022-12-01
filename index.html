@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="”Pragma”" content="”no-cache”" />
+    <meta http-equiv="”Expires”" content="”-1″" />
+    <meta http-equiv="”CACHE-CONTROL”" content="”NO-CACHE”" />
+    <title>Alpen Bluffs Outdoor Resort</title>
+    <link rel="shortcut icon" href="IMG/Logo.png" type="x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="allStyles/stylesHome.css" />
+    <script src="submit.php"></script>
+  </head>
+
+  <body>
+
+    <div class="one" id="ScrollEffect">
+      <nav class="header">
+        <ul class="navbar">
+          <li class="navbar_item">
+            <a href="/tabs/accommodations.html" class="link_navbar" id="a">Amenities</a>
+          </li>
+
+          <li class="Accommodations">
+            <a href="/tabs/accommodations.html" class="link_navbar"
+              >Accommodations</a>
+          </li>
+
+          <li class="Home">Home</li>
+
+          <img src="IMG/Logo.png" class="logo" onclick="slide()"/>
+
+          <li class="navbar_item">
+            <a href="/tabs/accommodations.html" class="link_navbar">Gallery</a>
+          </li>
+
+          <li class="navbar_item">
+            <a href="/tabs/accommodations.html" class="link_navbar">Property Map</a>
+          </li>
+
+          <li class="navbar_item">
+            <a href="/tabs/accommodations.html" class="link_navbar">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <img src="IMG/SiteTitle2.png" alt="" class="title" />
+    </div>
+
+    <div class="two">
+      <ul class="overview">
+        <li class="big">LUXURY AWAITS YOU AT ALPEN BLUFFS OUTDOOR RESORT!</li>
+
+        <li class="small">
+          <input type="checkbox" id="check" />
+          <p Align="justify">
+            Located along Main Street/M-32 and a short 0.8 mile walk to
+            Alpine-themed Downtown Gaylord, MI, Alpen Bluffs Outdoor Resort
+            offers nightly RV, Motorhome, and Yurt accommodations with Cabin
+            availability to follow in the near future. Our resort is full of
+            amenities that will accommodate any guest, including an outdoor
+            recreational pool with hot tub, eight indoor golf simulator bays
+            with integrated bar and patio, outdoor pickleball
+          </p>
+          <p class="content" Align="justify">
+            courts, kids playground, dog park, grilling stations and fire pits,
+            recreational pond with obstacle course, snack bar including
+            full-service bar, a comprehensive camp store including food and
+            beverage offerings, comfort stations with laundry facilities,
+            seasonal RV and trailer storage, and golf cart and bike rentals, to
+            name a few.
+          </p>
+          <label for="check" class="read" onclick="read()" id="read"
+            >Read More</label
+          >
+        </li>
+
+        <div class="amentities">
+          <p class="key">Key Amenities</p>
+          <div class="icons" id="icons">
+            <span class="flexicon1">
+              <div class="circle" id="onec"></div>
+              <img
+                onclick="xer()"
+                class="smallx"
+                src="IMG/smallx.png"
+                alt=""
+                id="smallx"
+              />
+              <p class="desc" id="oned">
+                Enjoy exploring Alpen Bluffs Outdoor Resort or venture a short
+                0.8 miles to downtown Gaylord's Alpine Village for shopping,
+                entertainment, and culinary delights with your daily bike
+                rental. Reserve yours today prior to arrival.
+              </p>
+              <p class="namez" id="onen">Bike Rental</p>
+
+              <img
+                src="IMG/icons/BikePNG.png"
+                alt=""
+                class="icon"
+                id="bike"
+                data-right="18vw"
+                data-left="1vw"
+                data-top="7.5vw"
+                data-desc="Enjoy exploring Alpen Bluffs Outdoor Resort or venture a short 0.8 miles to downtown Gaylord's Alpine Village for shopping, entertainment, and culinary delights with your daily bike rental. Reserve yours today prior to arrival."
+                data-title="Bike Rental"
+                data-bottom="22vw"
+                onclick="iconClick(this)"
+              />
+              <img
+                src="IMG/icons/PoolPNG.png"
+                alt=""
+                class="icon"
+                id="pool"
+                data-right="9.35vw"
+                data-left="9.8vw"
+                data-top="7.5vw"
+                data-bottom="22vw"
+                data-desc="Join us in the outdoor pool and hot tub for a day out in the sun!  With lounge chairs abound, shady seating areas, private cabanas, and access to food and beverage options for all ages, you'll be sure to enjoy your day."
+                data-title="Swimming Pool"
+                onclick="iconClick(this)"
+              />
+              <img
+                src="IMG/icons/paw.png"
+                alt=""
+                class="icon"
+                id="paw"
+                data-right=".6vw"
+                data-left="18.5vw"
+                data-top="7.5vw"
+                data-bottom="22vw"
+                data-desc="Our furry friends deserve a space to let loose!  Alpen Bluffs Outdoor Resort offers a fun and exciting Agility Park for man's best friend.  Enjoy our gated dog park with an obstacle course to burn off some of that energy!"
+                data-title="Dog Park"
+                onclick="iconClick(this)"
+              />
+            </span>
+            <span class="flexicon2">
+              <img
+                src="IMG/icons/cart.png"
+                alt=""
+                class="icon"
+                id="mic"
+                data-right="14vw"
+                data-left="5vw"
+                data-top="14.5vw"
+                data-bottom="15vw"
+                data-desc="Simplify accessibility to all that Alpen Bluffs has to offer by renting a golf cart for the day.  Access to your neighbors, the camp store, and all other other amenities has never been easier!  Reserve yours today prior to arrival"
+                data-title="Cart Rental"
+                onclick="iconClick(this)"
+              />
+              <img
+                src="IMG/icons/storeIcon.png"
+                alt=""
+                class="icon"
+                id="store"
+                data-right="4.7vw"
+                data-left="14.5vw"
+                data-top="14.5vw"
+                data-bottom="15vw"
+                data-desc="Enjoy all of the comforts of home with our conveniently located Camp Store.  Between RV supplies, snack foods, beer, wine, liquor, Alpen Bluffs souvenir and clothing options, as well as all other convenience store needs, our camp store has it all.  Come visit us today!  Note: open to the public and our guests."
+                data-title="Camp Store"
+                onclick="iconClick(this)"
+              />
+            </span>
+            <span class="flexicon3">
+              <img
+                src="IMG/icons/golf.png"
+                alt=""
+                class="icon"
+                id="golf"
+                data-right="18vw"
+                data-left="1vw"
+                data-top="21.5vw"
+                data-bottom="8vw"
+                data-desc="Alpen Bluffs offers 8 golf simulator bays, available to rent by the hour.  Enjoy playing a round on a number of world-renowned golf courses with your family and friends or simply stop by for a bit of practice. Food and beverage offerings available during your stay, including alcoholic beverages. Open to the public, while park guests have priority during weekends."
+                data-title="Golf Simulator"
+                onclick="iconClick(this)"
+              />
+              <img
+                src="IMG/icons/play.png"
+                alt=""
+                class="icon"
+                id="arcade"
+                data-right="9.35vw"
+                data-left="9.8vw"
+                data-top="21.5vw"
+                data-bottom="8vw"
+                data-desc="Alpen Bluffs offers a kids playground area that is highly interactive to promote physical activity and to help your child learn engagement, balance, and teamwork.  Enjoy a few hours with your family at this fun and exciting amenity!"
+                data-title="Playground"
+                onclick="iconClick(this)"
+              />
+              <img
+                src="IMG/icons/sports.png"
+                alt=""
+                class="icon"
+                id="ball"
+                data-right=".6vw"
+                data-left="18.5vw"
+                data-top="21.5vw"
+                data-bottom="8vw"
+                data-desc="Alpen Bluffs offers a number of sporting activities for all ages, including Pickleball, Volleyball, Lawn Games, and Gaga Ball to name a few.  Gaylord and the surrounding area has a multitude of other attractions, including golf, skiing, and water sports.  See Other Attractions for additional information."
+                data-title="Sports"
+                onclick="iconClick(this)"
+              />
+            </span>
+          </div>
+        </div>
+
+        <p class="stays">Accommodations</p>
+        <div class="pics">
+          <div class="flexBox-1">
+            <img src="IMG/RV.png" alt="" class="cabinPic" id="RV1" />
+            <img src="IMG/rvpic2.png" alt="" class="cabinPic2" id="RV2" />
+            <img
+              src="IMG/arrowR.png"
+              alt=""
+              class="arrowR1"
+              id="arrowRVL"
+              onclick="slideshowRV()"
+            />
+            <img
+              src="IMG/arrowL.png"
+              alt=""
+              class="arrowL1"
+              id="arrowRVR"
+              onclick="slideshowRV()"
+            />
+
+            <p class="bigYurtText">Glamping Yurt</p>
+            <p class="smallYurtText">
+              Yurts are circular, spacious canvas-walled tents, that offer a
+              unique year-round glamping accommodation. Each Yurt sleeps between
+              2-6 people and is furnished with sleeping accommodations, a small
+              kitchen, bathroom with stand-up shower, kitchen table and chairs,
+              television, and heat and air conditioning...
+            </p>
+
+            <a href="/tabs/accommodations.html" class="book"><button class="learnmore2">Book Your Stay</button></a>
+
+            <img src="IMG/cabin.png" alt="" class="RVPic" id="cabin1" />
+            <img src="IMG/cabin2.png" alt="" class="rvpic2" id="cabin2" />
+            <img
+              src="IMG/arrowR.png"
+              alt=""
+              class="arrowR3"
+              id="arrowCL"
+              onclick="slideshowCabin()"
+            />
+            <img
+              src="IMG/arrowL.png"
+              alt=""
+              class="arrowL3"
+              id="arrowCR"
+              onclick="slideshowCabin()"
+            />
+          </div>
+          <div class="flexBox-2">
+            <p class="bigCabinText">RV and Motorhome Site</p>
+            <p class="smallCabinText">
+              All RV and Motorcoach sites are inclusive of 50 Amp service with
+              direct hookup to City water and sewer, access to cable, free WIFI,
+              patio area with picnic table, and fire ring. Accommodations
+              include back-in and pull-through sites.
+            </p>
+
+            <a href="/tabs/accommodations.html" class="book"><button class="learnmore">Book Your Stay</button></a>
+
+            <div class="line"></div>
+
+            <img src="IMG/Yurt.png" alt="" class="yurtPic" id="two" />
+
+            <div class="line2"></div>
+
+            <p class="bigRVText">Tiny Home Cabin</p>
+            <p class="smallRVText">
+              All Tiny Home Cabins include a loft and sleeps up to 8 people.
+              They are fully furnished and equipped with a full kitchen,
+              breakfast bar, kitchen table and chairs, television, couch/futon,
+              bathroom with stand-up shower, exterior porch, and heat and air
+              conditioning...
+            </p>
+            <a href="/tabs/accommodations.html" class="book"><button class="learnmore">Book Your Stay</button></a>
+            
+          </div>
+        </div>
+      </ul>
+    </div>
+
+    <div class="three" id="ScrollEffect2">
+      <p class="nearby">Nearby Attractions</p>
+      <div class="box1" >
+        <a href="/tabs/accommodations.html"><img src="IMG/lake.jpg" alt="" class="lake" /></a>
+        <p class="view">Water Sports</p>
+        <p class="littleViewl">3 mi</p>
+      </div>
+      <div class="box2" id="b2">
+        <a href="/tabs/accommodations.html"><img src="IMG/golf.jpg" alt="" class="lakeg" /></a>
+        <p class="view">Golf</p>
+        <p class="littleViewg">0.1 mi</p>
+      </div>
+      <div class="box3" id="b3">
+        <a href="/tabs/accommodations.html"><img src="IMG/ski.jpg" alt="" class="lakes" /></a>
+        <p class="view">Skiing</p>
+        <p class="littleViews">0.5 mi</p>
+      </div>
+    </div>
+
+    <div class="four" id="four">
+      <div class="RYIheader">Register Your Interest</div>
+
+      <form action="submit.php" method="post" >
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+        
+        <div>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email">
+        </div>
+        
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </div>
+        
+        <div>
+            <label for="password_confirmation">Repeat password</label>
+            <input type="password" id="password_confirmation" name="password_confirmation">
+        </div>
+        
+        <button>Sign up</button>
+    </form>
+      <!-- <div class="fbox">
+        <form action="submit.php" class="form" method="post">
+          <button class="submit">Submit</button>
+          <div class="leftbox">
+            <input type="text" class="longinput" placeholder="Full Name*" />
+            <input
+              type="email"
+              class="longinput"
+              placeholder="Email Address*"
+            />
+            <input
+              type="text"
+              class="longinput"
+              placeholder="Street Address*"
+            />
+            <input type="text" class="longinput" placeholder="City*" />
+            <input type="text" class="shortinput" placeholder="State*" />
+            <input type="text" class="shortinput" placeholder="Zip Code*" />
+            <form action="" class=""></form>
+          </div>
+          <div class="rightbox">
+            <label for="" class="label">Desired Duration of Stay:</label>
+            <select name="duration" id="" class="duration">
+              <option value="1 Night" class="option">1 Night</option>
+              <option value="2-3 Nights" class="option">2-3 Nights</option>
+              <option value="1 Week" class="option">1 Week</option>
+              <option value="1 Month" class="option">1 Month</option>
+            </select>
+            <label for="" class="Preferred">Preferred Time of Visit:</label>
+            <select name="time" id="" class="time">
+              <option value="Spring" class="option">Spring</option>
+              <option value="Summer" class="option">Summer</option>
+              <option value="Fall" class="option">Fall</option>
+              <option value="Winter" class="option">Winter</option>
+              <option value="Year Round" class="option">Year Round</option>
+            </select>
+            <label for="" class="attractions"
+              >Attractions in Which You are Interested:</label
+            >
+            <label for="Yurt" class="Yurt"
+              ><input type="checkbox" class="check" id="Yurt" name="Yurt" />
+              Yurt
+            </label>
+            <label for="cabin" class="cabin"
+              ><input type="checkbox" class="checkc" id="cabin" name="cabin" />
+              Cabin
+            </label>
+            <label for="rv" class="RVS"
+              ><input type="checkbox" class="checkr" id="rv" name="rv" /> RV
+              Site</label
+            >
+            <label for="water" class="water"
+              ><input type="checkbox" class="checkw" id="water" name="water" />
+              Recreational Pond
+            </label>
+            <label for="golfs" class="golfs"
+              ><input type="checkbox" class="checkg" id="golfs" name="golfs" />
+              Golf Simulator/Bar</label
+            >
+          </div>
+          <label for="" class="disclaimer">
+            * Disclaimer: we do not sell any of their information to any third
+            party. The information gathered will only be used by Alpen Bluffs
+            relative to future interest in the resort.
+          </label>
+          <label for="emailNot" class="email"
+            ><input type="checkbox" class="checkE" id="emailNot" name="emailNot" />
+            Open to Receiving Information on Status of Construction/Park Opening?
+          </label> -->
+          
+        </form>
+      </div> 
+      
+    </div>
+
+    <div class="five">
+      <img src="../IMG/Logo.png" alt="" class="logo2" />
+      <label for="" class="Alpen">Alpen Bluffs Outdoor Resort</label>
+      <label for="" class="m32">M32 Development</label>
+      <label for="" class="address"
+        >254 Little League Drive, Gaylord, MI 49735</label
+      >
+      <label for="" class="contactus">Contact Us</label>
+      <label for="" class="number"></label>
+      <label for="" class="E"> info@AlpenBluffs.com</label>
+      <a href="https://www.instagram.com/alpenbluffsmi/" class=""
+        ><img src="IMG/insta.png" alt="" class="F"
+      /></a>
+      <a href="https://www.facebook.com/HauntedBluffs/" class=""
+        ><img src="IMG/facebook.png" alt="" class="I"
+      /></a>
+    </div>
+
+    <img src="IMG/RYI.png" alt="" class="RYI" id="RYI" />
+
+    <script src="app.js"></script>
+    
+  </body>
+</html>
